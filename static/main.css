@@ -1,0 +1,44 @@
+body{
+    margin:0 auto;
+	width: 60%;
+}
+
+p{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+input{
+    border-radius:5px;
+}
+
+label{
+    color:#1e8982;
+}
+
+.space{
+    margin-right: 25px;
+    marg-left: 25px;
+}
+
+.center{
+    margin-right: 25px;
+    width: 50%;
+    padding: 10px;
+}
+.border{
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.col1_1{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.col1_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+}
